@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Activity Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Need Something to Do?</h1>
+        <p>Discover a random activity to try!</p>
+
+        <button id="activityButton">Get an Activity</button>
+
+        <p id="loadingMessage" aria-live="polite"></p>
+
+        <section id="activityResult" aria-live="polite">
+            <h2>Your Activity Will Appear Here</h2>
+            <p>Click the button to get started.</p>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
